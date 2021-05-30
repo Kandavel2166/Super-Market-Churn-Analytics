@@ -12,7 +12,7 @@ import seaborn as sns               # Visualization
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 # Read the data
-filename = "D:/churn/Super Market Churn/Super-Market-Churn_2.csv"
+filename = "D:/churn/Super Market Churn/Super-Market-Data.csv"
 data = pd.read_csv(filename) 
 
 # Let us see the shape of data
